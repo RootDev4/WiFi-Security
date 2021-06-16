@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 'This example shows how to work with authentication'
-'Forked and updated from https://github.com/ranganathanm/mininet-wifi/tree/master/examples/dpp'
+'Forked from https://github.com/ranganathanm/mininet-wifi/blob/master/examples/dpp/dpp-auth.py'
 
 from mininet.log import setLogLevel, info
 from mn_wifi.cli import CLI
