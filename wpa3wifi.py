@@ -1,7 +1,10 @@
 #!/usr/bin/python
 
-'This example shows how to work with authentication'
-'Forked from https://github.com/intrig-unicamp/mininet-wifi/blob/master/examples/authentication.py'
+__author__ = 'Ramon Fontes'
+__url__ = 'https://github.com/intrig-unicamp/mininet-wifi/blob/master/examples/authentication.py'
+
+'This example shows how to work with WPA3 authentication'
+'Updated version by RootDev4 @ 06/2021'
 
 from mininet.log import setLogLevel, info
 from mn_wifi.cli import CLI
