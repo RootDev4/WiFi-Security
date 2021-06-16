@@ -16,7 +16,8 @@ def topology():
     sta2 = net.addStation('sta2', passwd='123456789a', encrypt='wpa3')
     ap1 = net.addAccessPoint('ap1', ssid="wpa3wifi", mode="g", channel="1",
                              passwd='123456789a', encrypt='wpa3',
-                             failMode="standalone", datapath='user')
+                             failMode="standalone", datapath='user', 
+                             wpa_key_mgmt='SAE', ieee80211w=2)
 
     info("*** Configuring wifi nodes\n")
     net.configureWifiNodes()
