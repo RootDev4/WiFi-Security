@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 'This example shows how to work with authentication'
-'Forked and updated from https://github.com/intrig-unicamp/mininet-wifi/blob/master/examples/authentication.py'
+'Forked from https://github.com/intrig-unicamp/mininet-wifi/blob/master/examples/authentication.py'
 
 from mininet.log import setLogLevel, info
 from mn_wifi.cli import CLI
